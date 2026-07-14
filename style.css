@@ -117,3 +117,68 @@ ul li a:hover{
     font-size: 16px;
 }
 
+
+.speakers{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.section-title{
+    text-align:center;
+    font-size:56px;
+    font-weight:800;
+    color:#111827;
+    margin-bottom:60px;
+}
+
+.speaker-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:28px;
+}
+
+.speaker-card{
+    background:#fff;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    overflow:hidden;
+    
+}
+
+.speaker-card:hover{
+    
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.speaker-card img{
+    width:100%;
+    
+    object-fit:cover;
+    display:block;
+    object-position: top;
+}
+
+.speaker-info{
+    padding:18px;
+}
+
+.category{
+    display:block;
+    font-size:11px;
+    font-weight:700;
+    color:#2956F2;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.speaker-info h3{
+    font-size:28px;
+    font-weight:700;
+    color:#1F2937;
+    margin-bottom:8px;
+}
+
+.speaker-info p{
+    font-size:15px;
+    color:#6B7280;
+}
