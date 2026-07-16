@@ -345,3 +345,34 @@ nav ul li a:hover{
     background:#0D1B2A;
     color:#fff;
 }
+.footer{
+    background: #0D1B2A;
+    padding: 35px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 28px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #6B7280;
+    font-size: 14px;
+    
+}
+
+.footer-links a:hover{
+    color: #ffffff;
+}
